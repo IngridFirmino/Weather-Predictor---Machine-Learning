@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hate Speech Detector</title>
+    <link rel="stylesheet" href="/static/styles/style.css">
+
+</head>
+<style> 
+    body {
+      background-image: url("https://www.policyed.org/sites/default/files/uploads/istock-916093310.jpg");
+      background-size: cover;
+      background-color: #5aa999;
+    }
+    </style>
+<body>
+    <br>
+    <br>
+    <h1 style="color:rgb(15, 18, 15); text-align: center;font-family:'Courier New', Courier, monospace; font-size: 2.7em;background-color: rgb(250, 253, 238) ; padding: 10px; border: 1px solid rgb(250, 253, 238);">Hate Speech Detector - Machine Learning Model</h1>
+    <div class="content">
+        <form method="POST">
+            <div  style ="text-align:center;">
+            <br>
+            
+            <label style="color:rgb(10, 10, 10); font-size: 2em; font-family:'Courier New', Courier, monospace;-webkit-text-stroke-width: 1px;">Insert a sentence:</label>
+            <br>
+            <br>
+            <br>
+            <input type="text" name="sentence" size="70" style="border:3px dotted rgb(21, 82, 157);background-color:rgb(250, 253, 238);text-align: center;"> 
+            <br>
+            <br>
+            <input type="submit" value="!RUN MODEL!" style="color: rgb(5, 5, 5);font-size: large ; text-align: center; font-family:'Courier New', Courier, monospace;-webkit-text-stroke-width: 1px" >
+        </form>
+        <br>
+        <br>
+    <p style="color: rgb(11, 12, 12);font-size: 1.8em; font-family:'Courier New', Courier;-webkit-text-stroke-width: 1px;"> The result is: {{pred}}</p>
+    </div>
+    
+
+
+</body>
+</html>

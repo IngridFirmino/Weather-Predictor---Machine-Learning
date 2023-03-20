@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Solar Irradiance Predictor</title>
+    <style>
+
+        table.dataframe {
+            border-collapse: collapse;
+            border: none;
+            font-size: 14px;
+            width: 100%;
+            text-align: left;
+        }
+        table.dataframe td, table.dataframe th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        table.dataframe th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        h1 {
+            color: #4286f4;
+            font-size: 36px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h2 {
+            color: #666;
+            font-size: 24px;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Solar Irradiance Predictor</h1>
+    <h2> The Weather is mainly: {{cloudy}}</h2>
+    {{ tables|safe }}
+</body>
+</html>
+
+
+
+
+
+
